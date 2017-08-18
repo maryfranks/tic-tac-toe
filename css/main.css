@@ -1,0 +1,48 @@
+html {
+  background-color: grey;
+}
+
+h1 {
+  font-size: 18pt;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.board {
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  margin: 10% 30%;
+  text-align: center;
+  background-color: white;
+}
+
+.tic-tac-toe {
+  width: 280px;
+  margin: auto;
+  background-color: white;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  /*border: 2px solid black;*/
+}
+
+.right {
+  border-right: 2px solid black;
+}
+
+.left {
+  border-left: 2px solid black;
+}
+
+.top-row {
+  border-bottom: 2px solid black;
+}
+
+.bottom-row {
+  border-top: 2px solid black;
+}
