@@ -1,18 +1,19 @@
 html {
   background-color: grey;
+  font-family: 'Pangolin', cursive;
 }
 
 h1 {
-  font-size: 18pt;
+  font-size: 23pt;
   margin: 10px;
   text-align: center;
   padding-bottom: 25px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .board {
   width: 500px;
-  height: 400px;
+  height: 430px;
   display: inline-block;
   margin: 10% 30%;
   text-align: center;
@@ -33,17 +34,26 @@ h1 {
 }
 
 .winner {
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 .winner p {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  font-size: 15pt;
 }
 
 #player-one {
-  display: none;
+  /*display: none;*/
 }
 
 #player-two {
-  /*display: none;*/
+  display: none;
+}
+
+#one-wins {
+  display: none;
+}
+
+#two-wins {
+  display: none;
 }
