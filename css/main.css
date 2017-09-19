@@ -1,6 +1,14 @@
+/*
+color palette:
+#777F8B
+#1B222C
+#BCBFC4
+*/
+
 html {
-  background-color: grey;
+  background-color: #777F8B;
   font-family: 'Pangolin', cursive;
+  color: #1B222C;
 }
 
 h1 {
@@ -17,20 +25,20 @@ h1 {
   display: inline-block;
   margin: 10% 30%;
   text-align: center;
-  background-color: white;
+  background-color: #BCBFC4;
 }
 
 .tic-tac-toe {
   width: 280px;
   margin: auto;
-  background-color: white;
+  background-color: #BCBFC4;
 }
 
 .square {
   height: 80px;
   width: 80px;
   display: inline-block;
-  border: 2px solid black;
+  border: 2px solid #1B222C;
 }
 
 .winner {
