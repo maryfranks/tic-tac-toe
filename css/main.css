@@ -6,7 +6,8 @@ h1 {
   font-size: 18pt;
   margin: 10px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  padding-top: 10px;
 }
 
 .board {
@@ -28,21 +29,21 @@ h1 {
   height: 80px;
   width: 80px;
   display: inline-block;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
 }
 
-.right {
-  border-right: 2px solid black;
+.winner {
+  margin-top: 20px;
 }
 
-.left {
-  border-left: 2px solid black;
+.winner p {
+  padding-bottom: 20px;
 }
 
-.top-row {
-  border-bottom: 2px solid black;
+#player-one {
+  display: none;
 }
 
-.bottom-row {
-  border-top: 2px solid black;
+#player-two {
+  /*display: none;*/
 }
